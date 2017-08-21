@@ -1,0 +1,343 @@
+body .homepage-hero-module{
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+
+.video-container video.fillWidth {
+  width: 100%;
+}
+
+/*//Navbar*/
+
+#logo {
+  position: fixed;
+  padding-left: 20px;
+}
+
+.name {
+  font-size: 40px;
+  color: white;
+  margin-left: 7%;
+  font-family: 'Just Another Hand', cursive;
+  text-shadow: 2px 2px black;
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
+#nav-links {
+  float: right;
+  width: 50%;
+  display: inline-block;
+}
+
+.navbar {
+  position: absolute;
+  top: 15px;
+  z-index: 2;
+  width: 100%;
+}
+
+ul {
+    float: right;
+    background-color: none;
+    font-size: 40px;
+    font-family: 'Just Another Hand', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.links:link {
+  /*border-left:2px solid white;*/
+  padding-top: 25px;
+  text-decoration: underline;
+
+}
+
+.links {
+    /*border-left:2px solid white;*/
+    padding-top: 25px;
+    text-decoration: underline;
+
+}
+
+.links:visited {
+  text-decoration: underline;
+  /*border-left:2px solid white;*/
+  padding-top: 25px;
+  color: white;
+}
+
+.links:hover {
+    /*border-left:2px solid white;*/
+    padding-top: 25px;
+    text-decoration: underline;
+    color: white;
+}
+
+.links:active {
+  text-decoration: underline;
+  /*border-left:2px solid white;*/
+  padding-top: 25px;
+  color: white;
+}
+
+ul li {
+  display:inline-block;
+  text-decoration: none;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+ul:hover:not(.links) {
+    background-color: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*//End of Navbar*/
+
+
+/*//Main Page Title */
+.Header {
+  font-size: 80px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  padding-top: 230px;
+  color: white;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+}
+
+
+hr.colored {
+  border: solid 2.5px #EF4035;
+}
+
+hr {
+  max-width: 150px;
+}
+
+/*//Button Feature*/
+
+.button {
+  position: relative;
+  cursor: pointer;
+  top: 10vh;
+  left: 5.8%;
+  color: white;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+}
+.button .text {
+  font-family: 'Just Another Hand', cursive;
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+.button:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: white;
+  z-index: -1;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+  text-decoration: none;
+  color: white;
+}
+
+.line {
+  position: absolute;
+  background: white;
+}
+.line.-right, .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.line.-top, .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+
+.button:hover .text,
+.button:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+  text-decoration: none;
+  color: white;
+}
+.button:hover:after,
+.button:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+  color: white;
+}
+.button:hover .line,
+.button:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.button:hover .line.-right,
+.button:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.button:hover .line.-top,
+.button:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.button:hover .line.-left,
+.button:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.button:hover .line.-bottom,
+.button:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
+
+/*//End Of Button Feature*/
+
+/*//Projects Page*/
+
+.container {
+  background-color: #FDF5E6;
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
+.title h2 {
+  padding-top: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.title img {
+padding-left: 500px;
+}
+
+.headers h2 {
+  padding-top: 60px;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.Chapter-1 {
+  padding-top: 500px;
+}
+
+.about-me {
+  background-color: white;
+  position: relative;
+  height: 80%;
+  width: 100%;
+}
+
+.about-title {
+  padding-top: 10px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 35px;
+  text-align: center;
+}
