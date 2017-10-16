@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="Assets/CSS/Reset.css" rel="stylesheet">
-    <link href="animate.css" type="text/css" rel="stylesheet">
-    <!-- <link href="typography.css" type="text/css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="animate.min.css">
     <link href="Assets/CSS/Style.css" rel="stylesheet">
+    <link href="Assets/CSS/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="Assets/Images/mapmarker.png" />
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <title>Portfolio</title>
   </head>
@@ -28,22 +34,24 @@
                           <h2>Malcolm Strong</h2>
                     </div>
                     <div id="nav-links">
+                      <div class="links">
                         <ul>
-                          <li><a class="links" href="#Contact">Projects</a></li>
-                          <li><a class="links" href="#Projects">About Me</a></li>
-                          <li><a class="links" href="#AboutMe">Contact</a></li>
+                          <li><a class="links-port hvr-grow" href="#Projects">Projects</a></li>
+                          <li><a class="links-about hvr-grow" href="#About Me">About Me</a></li>
+                          <li><a class="links-contact hvr-grow" href="#Contact">Contact</a></li>
                       </ul>
                   </div>
                 </div>
+              </div>
 
                   <div class="Header">
                         <center>
-                            <h1>Let's Build Something Amazing</h1>
+                            <h1 class="animated rubberBand">Let's Build Something Amazing</h1>
                         <hr class="colored">
                   <div class="button">
                         <center>
                       <a>
-                        <span class="text"><img src="Assets/Images/peaceHand.png"></span>
+                        <span class="text">Enter</span>
                         <span class="line -right"></span>
                         <span class="line -top"></span>
                         <span class="line -left"></span>
@@ -62,16 +70,142 @@
                     </div>
                 </div>
 
-              <div class="container">
+
+          <section id="services">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Projects</h2>
+                  <!-- <hr class="primary"> -->
+                </div>
+              </div>
+            </div>
+
+    <div class="p-0" id="portfolio">
+       <div class="container-fluid">
+         <div class="row no-gutter popup-gallery" style="margin-top: -40px;">
+           <div class="col-lg-4 col-sm-6">
+             <img class="img-fluid" src="Assets/Images/tent2.png" alt="">
+             <div class="grid">
+      					<figure class="effect-zoe">
+      						<img src="Assets/Images/campspot shot.png" alt=""/>
+      						<figcaption>
+      							<h2><span>Campspot</span></h2>
+      							<p class="social-btns">
+      								<a class="btn github" href="https://github.com/Marshall49" target="_blank"><i class="fa fa-github"></i></a>
+
+      								<!-- <a href="#"><span class="icon-paper-clip"></span></a> -->
+      							</p>
+      							<p class="description">The Campspot website allows users to search for campsites based on a user entered address.  On submission of the location a
+google map will populate centered on the submitted location.</p>
+
+      						</figcaption>
+      					</figure>
+           </div>
+         </div>
+
+         <div class="col-lg-4 col-sm-6">
+           <img class="img-fluid" src="Assets/Images/runningman3 copy 2.png" alt="">
+           <div class="grid">
+              <figure class="effect-zoe">
+                <img src="Assets/Images/justrunit shot.png" alt=""/>
+                <figcaption>
+                  <h2><span>JustRun-It</span></h2>
+                  <p class="icon-links">
+                    <a href="#"><span class="icon-heart"></span></a>
+                    <a href="#"><span class="icon-eye"></span></a>
+                    <a href="#"><span class="icon-paper-clip"></span></a>
+                  </p>
+                  <p class="description">JustRun-It! Is a Web Application that allows individuals who love to run, be able to log their status over a period of time and will be able to see fitness suggestions throughout the course of their use of the app so that they can get the best results</p>
+
+                </figcaption>
+              </figure>
+         </div>
+       </div>
+           <!-- <div class="col-lg-4 col-sm-6">
+              <img src="Assets/Images/runningman3 copy 2.png" class="" style="padding-left: 147px;">
+             <a class="portfolio-box" href="https://protected-wildwood-89400.herokuapp.com/" target="_blank">
+               <img class="img-fluid" src="Assets/Images/justrun-it shot.png" alt="">
+               <div class="portfolio-box-caption justrun-it">
+                 <div class="portfolio-box-caption-content">
+                   <div class="project-category text-faded">
+                      JustRun-it!
+                   </div>
+                   <hr class="project">
+                   <div class="project-name">
+                     JustRun-It! Is a Web Application that allows individuals who love to run, be able to log their status over a period of time and will be able to see fitness suggestions throughout the course of their use of the app so that they can get the best results
+                   </div>
+                 </div>
+               </div>
+             </a>
+           </div> -->
+           <!-- <div class="col-lg-4 col-sm-6">
+             <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+               <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+               <div class="portfolio-box-caption">
+                 <div class="portfolio-box-caption-content">
+                   <div class="project-category text-faded">
+                     Category
+                   </div>
+                   <div class="project-name">
+                     Project Name
+                   </div>
+                 </div>
+               </div>
+             </a>
+           </div> -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              
+                   <!-- <a href="https://twitter.com/minimalmonkey" class="icon-button github"><i class="icon-github"></i><span></span></a> -->
+
+             </div>
+           </div>
+
+           <div class= "Resources">
+                <center>
+
+                <ul class="image-list">
+                  <h1 class="tech-title">Technologies Used</h1>
+                  <!-- <hr class="tech"> -->
+                  <li><a href="https://www.w3schools.com/html/html5_intro.asp" class="hvr-grow" target="_blank"> <img src="Assets/Images/html copy.png" alt="html5"></li>
+
+                  <li><a href="http://getbootstrap.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/bootstrap copy.png" alt="bootstrap"></li>
+
+                  <li><a href="https://www.w3schools.com/Css/" class="hvr-grow" target="_blank"><img src="Assets/Images/css copy.png" alt="css"></li>
+
+                  <li><a href="https://dashboard.heroku.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/heroku copy.png" alt="heroku"></li>
+
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" class="hvr-grow" target="_blank"><img src="Assets/Images/javascript copy.png" alt="javascript"></li>
+
+                  <li><a href="http://jquery.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/jquery copy.png" alt="jquery"></li>
+
+                  <li><a href="https://nodejs.org/en/" class="hvr-grow" target="_blank"><img src="Assets/Images/node copy.png" alt="node"></li>
+
+                  <li><a href="https://developers.google.com/maps/" class="hvr-grow" target="_blank"><img src="Assets/Images/googlemaps copy.png" alt="googlemaps"></a></li>
+                </ul>
+                </center>
+                  <!-- <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Meet The Team</a> -->
+            </div>
+
+     </section>
+
+
+
+
+
+
+              <!-- <div class="container">
                 <div class="title">
                   <div class="row">
                     <div class="col-md-12">
                   <h2>The Good Stuff</h2>
-                  <!-- <img src="Assets/Images/mickeysingle.png"> -->
+                  <img src="Assets/Images/mickeysingle.png">
                 </div>
               </div>
-            </div>
-                <div class="headers">
+            </div> -->
+                <!-- <div class="headers">
                   <div class="row">
                     <div class="col-md-6">
                       <h2>Chapter 1</h2>
@@ -84,12 +218,12 @@
                     <div class="col-md-12">
                       <h2>Chapter 2</h2>
                     </div>
-                  </div>
+                  </div> -->
 
 
-            </div>
 
-</div>
+
+
 
 
           <div class="about-me">
@@ -122,6 +256,7 @@
 
 
 <script src="Assets/Javascript/Javascript.js"></script>
+<script src="Assets/Javascript/click.js"></script>
 
   </body>
 </html>
