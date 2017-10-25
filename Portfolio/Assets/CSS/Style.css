@@ -952,7 +952,7 @@ section {
   	text-transform: none;
     font-family: 'EB Garamond', serif;
     text-shadow: 1px 1px black;
-  	font-size: 68%;
+  	font-size: 72%;
     font-weight: bold;
   	opacity: 0;
   	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
@@ -1044,11 +1044,11 @@ section {
   }
 
   .effect-zone1:hover img {
-      opacity: 0.3;
+      opacity: 0.2;
 
   }
 
-  a.camp-link:link {
+  .effect-zone1 a:link {
     /*border-left:2px solid white;*/
     /*padding-top: 10px;*/
     /*text-decoration: underline;*/
@@ -1056,7 +1056,7 @@ section {
 
   }
 
-  a.camp-link {
+  .effect-zone1 a {
     font-size: 15px;
       /*border-left:2px solid white;*/
       /*padding-top: 10px;*/
@@ -1065,21 +1065,21 @@ section {
 
   }
 
-  a.camp-link:visited {
+  .effect-zone1 a:visited {
     /*text-decoration: underline;*/
     /*border-left:2px solid white;*/
     /*padding-top: 10px;*/
     color: white;
   }
 
-  a.camp-link:hover {
+  .effect-zone1 a:hover {
       /*border-left:2px solid white;*/
       /*padding-top: 10px;*/
       /*text-decoration: underline;*/
       color: white;
   }
 
-  a.camp-link:active {
+  .effect-zone1 a:active {
     /*text-decoration: underline;*/
     /*border-left:2px solid white;*/
     /*padding-top: 10px;*/
@@ -1198,6 +1198,21 @@ figure.effect-zone2:hover p.icon-links a:first-child {
   transition-delay: 0.2s;
 }
 
+.effect-zone2 img {
+    /*display: block;*/
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.effect-zone2:hover img {
+    opacity: 0.2;
+
+}
+
 /*//Effect Zone 3*/
 figure.effect-zone3 figcaption {
   top: auto;
@@ -1309,6 +1324,23 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
+
+.effect-zone3 img {
+    /*display: block;*/
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.effect-zone3:hover img {
+    opacity: 0.2;
+
+}
+
 
 
   .img-fluid {
