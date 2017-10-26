@@ -430,7 +430,7 @@ hr {
 }
 
 .section-heading {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kalam', cursive;
   font-size: 40px;
   margin-top: -5px;
 }
@@ -1049,41 +1049,26 @@ section {
   }
 
   .effect-zone1 a:link {
-    /*border-left:2px solid white;*/
-    /*padding-top: 10px;*/
-    /*text-decoration: underline;*/
     text-shadow: 2px 2px black;
 
   }
 
   .effect-zone1 a {
-    font-size: 15px;
-      /*border-left:2px solid white;*/
-      /*padding-top: 10px;*/
-      /*text-decoration: underline;*/
-      text-shadow: 2px 2px black;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
 
   }
 
   .effect-zone1 a:visited {
-    /*text-decoration: underline;*/
-    /*border-left:2px solid white;*/
-    /*padding-top: 10px;*/
-    color: white;
+    color: #0073e6;
   }
 
   .effect-zone1 a:hover {
-      /*border-left:2px solid white;*/
-      /*padding-top: 10px;*/
-      /*text-decoration: underline;*/
-      color: white;
+    color: #0073e6;
   }
 
   .effect-zone1 a:active {
-    /*text-decoration: underline;*/
-    /*border-left:2px solid white;*/
-    /*padding-top: 10px;*/
-    color: white;
+    color: #0073e6;
   }
 
 /*//Effect Zone 2*/
@@ -1213,6 +1198,29 @@ figure.effect-zone2:hover p.icon-links a:first-child {
 
 }
 
+.effect-zone2 a:link {
+  text-shadow: 2px 2px black;
+
+}
+
+.effect-zone2 a {
+  font-size: 18px;
+  text-shadow: 2px 2px black;
+
+}
+
+.effect-zone2 a:visited {
+  color: #ff6600;
+}
+
+.effect-zone2 a:hover {
+  color: #ff6600;
+}
+
+.effect-zone2 a:active {
+  color: #ff6600;
+}
+
 /*//Effect Zone 3*/
 figure.effect-zone3 figcaption {
   top: auto;
@@ -1339,6 +1347,29 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 .effect-zone3:hover img {
     opacity: 0.2;
 
+}
+
+.effect-zone3 a:link {
+  text-shadow: 2px 2px black;
+
+}
+
+.effect-zone3 a {
+  font-size: 18px;
+  text-shadow: 2px 2px black;
+
+}
+
+.effect-zone3 a:visited {
+  color: #e62e00;
+}
+
+.effect-zone3 a:hover {
+  color: #e62e00;
+}
+
+.effect-zone3 a:active {
+  color: #e62e00;
 }
 
 
