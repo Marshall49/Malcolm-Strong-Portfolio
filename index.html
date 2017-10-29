@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <title>Portfolio</title>
   </head>
@@ -90,12 +90,13 @@
              <img class="img-fluid" src="Assets/Images/tent2.png" alt="">
              <div class="grid">
       					<figure class="effect-zone1">
-      						<img src="Assets/Images/campspot.png" alt=""/>
+      						<img class="camp-dim" src="Assets/Images/campspot.png" alt=""/>
                   <!-- <div class="overlay"></div> -->
       						<figcaption>
       							<h2><span>Campspot</span></h2>
-                       <!-- <i class="fa fa-5x fa-github-square"></i> -->
-                  <!-- <div class="camp-link"> -->
+                    <p class="icon-links">
+                      <a href="https://github.com/Marshall49/FirstGroupProject" target="_blank"> <img src="Assets/Images/github.png" class="hvr-grow" ><span></span></a>
+                    </p>
       							<p class="description">The Campspot website allows users to search for campsites based on a user entered address.  On submission of the location a
 google map will populate centered on the submitted location.
                         <br>
@@ -104,6 +105,7 @@ google map will populate centered on the submitted location.
                       <!-- </div> -->
 
       						</figcaption>
+
                    <!-- <i class="fa fa-5x fa-github-square"></i> -->
       					</figure>
            </div>
@@ -113,15 +115,13 @@ google map will populate centered on the submitted location.
            <img class="img-fluid" src="Assets/Images/runningman3 copy 2.png" alt="">
            <div class="grid">
               <figure class="effect-zone2">
-                <img src="Assets/Images/justrunit.png" alt=""/>
+                <img class="run-dim" src="Assets/Images/justrunit.png" alt=""/>
                 <figcaption>
                   <h2><span>JustRun-It</span></h2>
                   <p class="icon-links">
-                    <a href="#"><span class="icon-heart"></span></a>
-                    <a href="#"><span class="icon-eye"></span></a>
-                    <a href="#"><span class="icon-paper-clip"></span></a>
+                    <a href="https://github.com/Marshall49/SecondGroupProject" target="_blank"> <img src="Assets/Images/github.png" class="hvr-grow"><span></span></a>
                   </p>
-                  <p class="description">JustRun-It! Is a Web Application that allows individuals who love to run, be able to log their status over a period of time and will be able to see fitness suggestions throughout the course of their use of the app so that they can get the best results. <br> <a href="https://protected-wildwood-89400.herokuapp.com/" class="hvr-grow" target="_blank"> <span>Click For Application</span></a></p>
+                  <p class="description">JustRun-It! Is a Web Application that allows runners to log their status over a period of time and will be able to update their progress. <br> <a href="https://protected-wildwood-89400.herokuapp.com/" class="hvr-grow" target="_blank"> <span>Click For Application</span></a></p>
 
                 </figcaption>
               </figure>
@@ -131,13 +131,11 @@ google map will populate centered on the submitted location.
            <img class="img-fluid" src="Assets/Images/blood_drop.png" alt="">
            <div class="grid">
               <figure class="effect-zone3">
-                <img src="Assets/Images/dialogs.png" alt=""/>
+                <img class="dia-dim" src="Assets/Images/dialogs.png" alt=""/>
                 <figcaption>
                   <h2><span>DIAlogs</span></h2>
                   <p class="icon-links">
-                    <a href="#"><span class="icon-heart"></span></a>
-                    <a href="#"><span class="icon-eye"></span></a>
-                    <a href="#"><span class="icon-paper-clip"></span></a>
+                    <a href="https://github.com/Marshall49/StealthChicken-" target="_blank"> <img src="Assets/Images/github.png" class="hvr-grow"><span></span></a>
                   </p>
                   <p class="description"> DIAlogs is a application that allows physicians to collaborate. We want physicians to have a place to display anonymous data and receive feedback from other physicians who may have experienced the same issues. <br> <a href="https://vast-refuge-19207.herokuapp.com/" class="hvr-grow" target="_blank"> <span>Click For Application</span></a></p>
 
@@ -169,7 +167,10 @@ google map will populate centered on the submitted location.
              </div>
            </div>
 
-           <div class= "Resources">
+
+          <!-- <div class= "row">
+            <div class= "col-md-12"> -->
+               <div class= "Resources">
                 <center>
 
                 <ul class="image-list">
@@ -187,13 +188,25 @@ google map will populate centered on the submitted location.
 
                   <li><a href="http://jquery.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/jquery copy.png" alt="jquery"></li>
 
+                <br>
+                <center>
                   <li><a href="https://nodejs.org/en/" class="hvr-grow" target="_blank"><img src="Assets/Images/node copy.png" alt="node"></li>
 
                   <li><a href="https://developers.google.com/maps/" class="hvr-grow" target="_blank"><img src="Assets/Images/googlemaps copy.png" alt="googlemaps"></a></li>
+
+                  <li><a href="https://reactjs.org/" class="hvr-grow" target="_blank"><img src="Assets/Images/react.png" alt="react"></a></li>
+
+                  <li><a href="https://www.mongodb.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/mongodb.png" alt="mongo"></a></li>
+
+                  <li><a href="https://www.mysql.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/mysql.png" alt="mysql"></a></li>
+
+                  <li><a href="https://expressjs.com/" class="hvr-grow" target="_blank"><img src="Assets/Images/express.png" alt="express"></a></li>
                 </ul>
                 </center>
                   <!-- <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Meet The Team</a> -->
             </div>
+          <!-- </div>
+        </div> -->
 
      </section>
 
@@ -236,11 +249,22 @@ google map will populate centered on the submitted location.
             <div class="about-title">
               <div class="row">
                 <div class="col-md-12">
-                  <h2>About Me</h2>
+                  <h2>Me</h2>
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-sm-6">
+              <img class="mal-fluid hvr-grow" src="Assets/Images/malcolm.png" alt="">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <p class="about-description">Hey People! My name is Malcolm Strong. I'm a Web Developer with a passion for UI/UX Design, Front-End/Back-End Developement.
+               Born and raised in Atlanta, Georgia.<br>
 
+              Played Division-1 College Football for Marshall Univerity while obtaining a Bachelor's in Business Administration (Marketing) and also my Masters in Business Administration.
+
+
+              <br> I have a diverse set of skills, ranging from design, to HTML + CSS + Javascript/JQuery + NodeJS + MongoDB.</p>
+        </div>
 
 
 

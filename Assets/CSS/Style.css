@@ -432,24 +432,26 @@ hr {
 .section-heading {
   font-family: 'Kalam', cursive;
   font-size: 40px;
+  font-weight: 700;
   margin-top: -5px;
 }
 
 .tech-title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
   margin-top: 20px;
 }
 
 .image-list{
   margin-top: 120px;
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
   border-radius: 20px;
 }
 
 .Resources {
   font-family: 'Just Another Hand', cursive;
   font-size: 40px;
-  margin-right: 120px;
+  margin-right: 270px;
 }
 
 hr.tech {
@@ -683,10 +685,13 @@ padding-left: 500px;
 
 .about-title {
   padding-top: 10px;
-  font-family: 'Just Another Hand', cursive;
-  font-size: 35px;
+  font-family: 'Kalam', cursive;
+  font-size: 45px;
+  font-weight: 800;
   text-align: center;
 }
+
+
 
 section {
   padding: 100px 0; }
@@ -791,7 +796,7 @@ section {
 
   .grid figure h2 span {
   	font-weight: 800;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Kalam', cursive;
   }
 
   .grid figure h2,
@@ -935,6 +940,8 @@ section {
 
   figure.effect-zone1 p.icon-links a {
   	float: right;
+    padding-right: 20px;
+    margin-top: -10px;
   	color: #3c4a50;
   	font-size: 1.4em;
   }
@@ -950,10 +957,10 @@ section {
   	padding: 2em;
   	color: #fff;
   	text-transform: none;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Kalam', cursive;
     text-shadow: 1px 1px black;
-  	font-size: 72%;
-    font-weight: bold;
+  	font-size: 68%;
+    font-weight: 400;
   	opacity: 0;
   	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
   	-webkit-transition: opacity 0.35s;
@@ -1033,7 +1040,7 @@ section {
       padding: 0;
   }*/
 
-  .effect-zone1 img {
+  .effect-zone1 .camp-dim {
       /*display: block;*/
 
       -webkit-transition: all 0.5s linear;
@@ -1043,7 +1050,7 @@ section {
               transition: all 0.5s linear;
   }
 
-  .effect-zone1:hover img {
+  .effect-zone1:hover .camp-dim {
       opacity: 0.2;
 
   }
@@ -1060,7 +1067,7 @@ section {
   }
 
   .effect-zone1 a:visited {
-    color: #0073e6;
+    color: #fff;
   }
 
   .effect-zone1 a:hover {
@@ -1070,6 +1077,8 @@ section {
   .effect-zone1 a:active {
     color: #0073e6;
   }
+
+
 
 /*//Effect Zone 2*/
 figure.effect-zone2 figcaption {
@@ -1091,13 +1100,14 @@ figure.effect-zone2 h2 {
 
 figure.effect-zone2 p.icon-links a {
   float: right;
-  color: #3c4a50;
+  padding-right: 20px;
+  margin-top: -10px;
   font-size: 1.4em;
 }
 
 figure.effect-zone2:hover p.icon-links a:hover,
 figure.effect-zone2:hover p.icon-links a:focus {
-  color: #252d31;
+  /*color: #252d31;*/
 }
 
 figure.effect-zone2 p.description {
@@ -1106,10 +1116,10 @@ figure.effect-zone2 p.description {
   padding: 2em;
   color: #fff;
   text-transform: none;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Kalam', cursive;
   text-shadow: 1px 1px black;
   font-size: 68%;
-  font-weight: bold;
+  font-weight: 400;
   opacity: 0;
   -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
   -webkit-transition: opacity 0.35s;
@@ -1183,8 +1193,7 @@ figure.effect-zone2:hover p.icon-links a:first-child {
   transition-delay: 0.2s;
 }
 
-.effect-zone2 img {
-    /*display: block;*/
+.effect-zone2 .run-dim{
 
     -webkit-transition: all 0.5s linear;
        -moz-transition: all 0.5s linear;
@@ -1193,7 +1202,7 @@ figure.effect-zone2:hover p.icon-links a:first-child {
             transition: all 0.5s linear;
 }
 
-.effect-zone2:hover img {
+.effect-zone2:hover .run-dim {
     opacity: 0.2;
 
 }
@@ -1210,7 +1219,7 @@ figure.effect-zone2:hover p.icon-links a:first-child {
 }
 
 .effect-zone2 a:visited {
-  color: #ff6600;
+  color: #fff;
 }
 
 .effect-zone2 a:hover {
@@ -1241,6 +1250,8 @@ figure.effect-zone3 h2 {
 
 figure.effect-zone3 p.icon-links a {
   float: right;
+  padding-right: 20px;
+  margin-top: -10px;
   color: #3c4a50;
   font-size: 1.4em;
 }
@@ -1256,10 +1267,10 @@ figure.effect-zone3 p.description {
   padding: 2em;
   color: #fff;
   text-transform: none;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Kalam', cursive;
   text-shadow: 1px 1px black;
   font-size: 68%;
-  font-weight: bold;
+  font-weight: 400;
   opacity: 0;
   -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
   -webkit-transition: opacity 0.35s;
@@ -1334,7 +1345,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 }
 
 
-.effect-zone3 img {
+.effect-zone3 .dia-dim {
     /*display: block;*/
 
     -webkit-transition: all 0.5s linear;
@@ -1344,7 +1355,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
             transition: all 0.5s linear;
 }
 
-.effect-zone3:hover img {
+.effect-zone3:hover .dia-dim {
     opacity: 0.2;
 
 }
@@ -1361,7 +1372,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 }
 
 .effect-zone3 a:visited {
-  color: #e62e00;
+  color: #fff;
 }
 
 .effect-zone3 a:hover {
@@ -1450,4 +1461,15 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   .social-btns .btn .fa {
     font-size: 38px;
     vertical-align: middle;
+  }
+
+  .mal-fluid {
+    padding-left: 50px;
+  }
+
+  .about-description {
+    padding-top: 100px;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size: 120%;
   }
