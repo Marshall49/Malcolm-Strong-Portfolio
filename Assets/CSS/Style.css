@@ -2,7 +2,6 @@ body .homepage-hero-module{
   border-right: none;
   border-left: none;
   position: relative;
-  width: 100%;
 }
 
 .no-video .video-container video,
@@ -48,9 +47,20 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-@media screen and (max-width: 1600px) and (min-width: 520px) {
-    body {
-        width: 100%;
+@media screen and (max-width: 1600px) and (min-width: 500px) {
+    section {
+      padding: 100px 0;
+
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 500px) {
+     .container-fluid {
+       padding-top: 50px;
+       padding-left: 50px;
+       margin-right: auto;
+       margin-left: auto;
+
     }
 }
 
@@ -428,7 +438,6 @@ hr.project {
 
 #services {
   background-color: white;
-  width: 100%;
 }
 
 .btn-default {
@@ -515,7 +524,8 @@ hr.primary {
 
 
 section {
-  padding: 100px 0; }
+  padding: 100px 0;
+}
 
   .grid {
   	position: relative;
