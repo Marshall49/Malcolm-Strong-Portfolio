@@ -47,11 +47,11 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-@media screen and (max-width : 1600px) {
+/*@media screen and (max-width : 1600px) {
   body {
     min-width: 600px;
   }
-}
+}*/
 
 /*//Navbar*/
 
@@ -427,6 +427,7 @@ hr.project {
 
 #services {
   background-color: white;
+  width: 100%;
 }
 
 .btn-default {
@@ -507,6 +508,7 @@ hr.primary {
   font-size: 45px;
   font-weight: 800;
   text-align: center;
+  width: 100%;
 }
 
 
