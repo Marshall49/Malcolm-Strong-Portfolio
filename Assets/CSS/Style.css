@@ -47,14 +47,14 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-@media screen and (max-width: 1600px) and (min-width: 500px) {
+/*@media screen and (max-width: 1600px) and (min-width: 200px) {
     section {
       padding: 100px 0;
 
     }
-}
+}*/
 
-@media screen and (max-width: 1600px) and (min-width: 500px) {
+/*@media screen and (max-width: 1600px) and (min-width: 200px) {
      .container-fluid {
        padding-top: 50px;
        padding-left: 50px;
@@ -62,7 +62,7 @@ body .homepage-hero-module{
        margin-left: auto;
 
     }
-}
+}*/
 
 /*//Navbar*/
 
@@ -382,7 +382,7 @@ hr.about {
 
 /*//Projects Page*/
 
-.container-fluid {
+.between-boxes {
   padding-top: 50px;
   padding-left: 50px;
   margin-right: auto;
@@ -435,10 +435,10 @@ hr.project {
 #portfolio {
     padding: 20px 0 10px;
 }
-
+/*
 #services {
   background-color: white;
-}
+}*/
 
 .btn-default {
   color: #222;
@@ -506,14 +506,14 @@ hr.primary {
   padding-top: 500px;
 }
 
-.about-me {
+section.about-me {
   position: relative;
-  height: 80%;
   width: 100%;
+  bottom: 90px;
 }
 
 .about-title {
-  padding-top: 10px;
+  padding-top: 80px;
   font-family: 'Kalam', cursive;
   font-size: 45px;
   font-weight: 800;
