@@ -47,12 +47,12 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-/*@media screen and (max-width: 1600px) and (min-width: 200px) {
-    section {
-      padding: 100px 0;
+@media screen and (max-width: 1700px) and (min-width: 50px) {
+    body  {
+      max-width: 100%;
 
     }
-}*/
+}
 
 /*@media screen and (max-width: 1600px) and (min-width: 200px) {
      .container-fluid {
@@ -384,7 +384,7 @@ hr.about {
 
 .between-boxes {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -397,7 +397,7 @@ hr.about {
   font-family: 'Kalam', cursive;
   font-size: 40px;
   font-weight: 700;
-  margin-top: -5px;
+  margin-top: 80px;
 }
 
 .tech-title {
@@ -524,7 +524,9 @@ section.about-me {
 
 
 section {
-  padding: 100px 0;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
   .grid {
