@@ -2,6 +2,7 @@ body .homepage-hero-module{
   border-right: none;
   border-left: none;
   position: relative;
+  width: 100%;
 }
 
 .no-video .video-container video,
