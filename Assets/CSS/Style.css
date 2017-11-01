@@ -47,9 +47,45 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-/*@media screen and (max-width: 1700px) and (min-width: 50px) {
-    body  {
-      max-width: 100%;
+/*@media only screen and (max-width: 1700px) {
+    .container {
+        background-color: lightblue;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}*/
+
+/*@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}*/
+/*
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}*/
+
+/*@media only screen and (min-width: 500px) {
+    .container {
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}*/
+
+/*@media screen and (max-width: 1700px) and (min-width: 400px) {
+    .container  {
+      background-color: lightblue;
+      width: 100%;
+      height: 100%;
+      display: none;
 
     }
 }*/
@@ -98,7 +134,7 @@ body .homepage-hero-module{
   background-color: transparent;
 }
 
-ul {
+.links {
     float: right;
     background-color: none;
     font-size: 40px;
@@ -384,14 +420,14 @@ hr.about {
 
 .between-boxes {
   padding-top: 50px;
-  padding-left: 30px;
-  margin-right: auto;
-  margin-left: auto;
+  /*padding-left: 30px;*/
+  /*margin-right: auto;
+  margin-left: auto;*/
 }
 
-.no-gutter>[class*=col-] {
+/*.container>[class*=col-] {
      padding-left: 0;
-}
+}*/
 
 .section-heading {
   font-family: 'Kalam', cursive;
@@ -400,21 +436,19 @@ hr.about {
   margin-top: 80px;
 }
 
-.tech-title {
+/*.tech-title {
   font-family: 'Kalam', cursive;
   font-weight: 700;
   margin-top: 20px;
-}
+  text-align: center;
+}*/
 
 .image-list{
-  margin-top: 120px;
-  border-radius: 20px;
-}
-
-.Resources {
-  font-family: 'Just Another Hand', cursive;
   font-size: 40px;
-  margin-right: 270px;
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  margin-top: 90px;
+  text-align: center;
 }
 
 hr.tech {
@@ -432,43 +466,14 @@ hr.project {
   border: solid 1.2px white;
 }
 
-#portfolio {
+/*#portfolio {
     padding: 20px 0 10px;
-}
+}*/
 /*
 #services {
   background-color: white;
 }*/
 
-.btn-default {
-  color: #222;
-  border-color: #fff;
-  background-color: #fff;
-}
-
-
-.btn-xl {
-    padding: 6px 1px;
-}
-
-.btn {
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 50px;
-    font-family: 'Varela Round', sans-serif;
-}
-
-.btn-default {
-  color: #222;
-  border-color: #fff;
-  background-color: #fff;
-}
-
-.text-muted {
-  font-family: 'EB Garamond', serif;
-  color: black;
-}
 
 .header {
   font-family: 'Just Another Hand', cursive;
@@ -480,37 +485,6 @@ hr.primary {
   border: solid 2.2px black;
 }
 
-.title h2 {
-  padding-top: 10px;
-  color: white;
-  text-shadow: 2px 2px black;
-  text-align: center;
-  font-family: 'Just Another Hand', cursive;
-  font-size: 50px;
-  text-decoration: underline;
-}
-
-.title img {
-  padding-left: 500px;
-}
-
-.headers h2 {
-  padding-top: 60px;
-  text-align: center;
-  font-family: 'Just Another Hand', cursive;
-  font-size: 35px;
-  text-decoration: underline;
-}
-
-.Chapter-1 {
-  padding-top: 500px;
-}
-
-/*section.about-me {
-  position: relative;
-  width: 100%;
-  bottom: 90px;
-}*/
 
 .about-title {
   padding-top: 80px;
@@ -523,11 +497,11 @@ hr.primary {
 
 
 
-section {
-  padding-top: 50px;
+/*.container {
   width: 100%;
   height: 100%;
-}
+  display: none;
+}*/
 
   .grid {
   	position: relative;
@@ -645,7 +619,7 @@ section {
 
   figure.effect-zone1 p.description {
   	position: absolute;
-  	bottom: 5.5em;
+  	bottom: 4.5em;
   	padding: 2em;
   	color: #fff;
   	text-transform: none;
@@ -758,7 +732,7 @@ section {
 
   figure.effect-zone1 p.description {
   	position: absolute;
-  	bottom: 5.5em;
+  	bottom: 4.5em;
   	padding: 2em;
   	color: #fff;
   	text-transform: none;
@@ -909,7 +883,7 @@ figure.effect-zone2:hover p.icon-links a:focus {
 
 figure.effect-zone2 p.description {
   position: absolute;
-  bottom: 5.5em;
+  bottom: 4.5em;
   padding: 2em;
   color: #fff;
   text-transform: none;
@@ -1060,7 +1034,7 @@ figure.effect-zone3:hover p.icon-links a:focus {
 
 figure.effect-zone3 p.description {
   position: absolute;
-  bottom: 5.5em;
+  bottom: 4.0em;
   padding: 2em;
   color: #fff;
   text-transform: none;
@@ -1187,82 +1161,9 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   }
 
 
-  @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
-  .social-btns .btn,
-  .social-btns .btn:before,
-  .social-btns .btn .fa {
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
-    -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
-            transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
-  }
-  .social-btns .btn:before {
-    top: 90%;
-    left: -110%;
-  }
-  .social-btns .btn .fa {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-
- .social-btns .btn.github:before {
-    background-color: #000;
-  }
-  .social-btns .btn.github .fa {
-    color: #00aff0;
-  }
-  .social-btns .btn:focus:before,
-  .social-btns .btn:hover:before {
-    top: -10%;
-    left: -10%;
-  }
-  .social-btns .btn:focus .fa,
-  .social-btns .btn:hover .fa {
-    color: #fff;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  .social-btns {
-    height: 90px;
-    margin: auto;
-    font-size: 0;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  .social-btns .btn {
-    display: inline-block;
-    background-color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 90px;
-    margin: 0 10px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 28%;
-    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
-    opacity: 0.99;
-  }
-  .social-btns .btn:before {
-    content: '';
-    width: 120%;
-    height: 120%;
-    position: absolute;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-  .social-btns .btn .fa {
-    font-size: 38px;
-    vertical-align: middle;
-  }
-
-  .mal-fluid {
+  /*.mal-fluid {
     padding-left: 50px;
-  }
+  }*/
 
   .about-description {
     padding-top: 100px;
@@ -1285,7 +1186,6 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 }
 
 .list-unstyled {
-	padding-right: 500px;;
 	list-style: none;
 }
 .list-inline li {
@@ -1298,7 +1198,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 
 /*Change icons size here*/
 .social-icons .fa {
-	font-size: 0.8em;
+	font-size: 1.8em;
 }
 /*Change icons circle size and color here*/
 .social-icons .fa {
