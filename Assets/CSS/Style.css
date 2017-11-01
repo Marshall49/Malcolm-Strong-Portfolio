@@ -320,7 +320,7 @@ hr.about {
   padding: 0.7em calc(0.7em * 1.2);
   display: inline-block;
   border: 3px solid transparent;
-  position: relative;
+  /*position: relative;*/
   font-size: 30px;
   letter-spacing: 0.07em;
   text-align: center;
