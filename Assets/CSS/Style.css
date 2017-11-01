@@ -313,14 +313,14 @@ hr.about {
 .button {
   /*position: relative;*/
   cursor: pointer;
-  top: 10vh;
-  margin-left: 10%;
+  /*padding-top: 45px;*/
+  /*margin-left: 5%;*/
   color: white;
   transform: translate3d(-50%, -50%, 0);
   padding: 0.7em calc(0.7em * 1.2);
   display: inline-block;
   border: 3px solid transparent;
-  position: relative;
+  position: absolute;
   font-size: 30px;
   letter-spacing: 0.07em;
   text-align: center;
