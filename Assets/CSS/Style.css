@@ -57,11 +57,23 @@ body .homepage-hero-module{
 }*/
 
 /*@media (min-width: 1200px) {
-.container {
-    width: 1170px;
-}
+.button {
+  cursor: pointer;
+  top: 10vh;
+  margin-left: 10%;
+  color: white;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 0.07em;
 
-@media (min-width: 992px) {
+    width: 1170px;
+}*/
+
+/*@media (min-width: 992px) {
 .container {
     width: 970px;
 }*/
