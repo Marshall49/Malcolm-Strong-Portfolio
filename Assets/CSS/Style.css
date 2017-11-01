@@ -302,7 +302,7 @@ hr.about {
   /*position: relative;*/
   cursor: pointer;
   top: 10vh;
-  /*left: 100%;*/
+  margin-left: 10%;
   color: white;
   transform: translate3d(-50%, -50%, 0);
   padding: 0.7em calc(0.7em * 1.2);
@@ -311,7 +311,7 @@ hr.about {
   position: relative;
   font-size: 30px;
   letter-spacing: 0.07em;
-  /*text-decoration: none;*/
+  text-align: center;
 }
 .button .text {
   font-family: 'Just Another Hand', cursive;
