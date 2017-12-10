@@ -4,22 +4,22 @@ $(".button").on('click', function(){
     $('html, body').animate({scrollTop: lastElementTop}, 'slow'); //scrolls to the position found in last line
 });
 
-$(".links-port").on('click', function(){
+$(".projects").on('click', function(){
     //jQuery function which triggers when developers link clicked
     $(".container").css("display", "block");		//displays the previously hidden container class block
     lastElementTop = $('.container').position().top ; //finds the position of the container class and assigns to variable
     $('html, body').animate({scrollTop: lastElementTop}, 'slow'); //scrolls to the position found in last line
 });
 
-$(".links-about").on('click', function(){
+$(".about").on('click', function(){
     //jQuery function which triggers when developers link clicked
-    $(".click").css("display", "block");		//displays the previously hidden container class block
-    lastElementTop = $('.click').position().top ; //finds the position of the container class and assigns to variable
+    $(".click-contact").css("display", "block");		//displays the previously hidden container class block
+    lastElementTop = $('.click-contact').position().top ; //finds the position of the container class and assigns to variable
     $('html, body').animate({scrollTop: lastElementTop}, 'slow'); //scrolls to the position found in last line
 });
 
 
-$(".links-contact").on('click', function(){
+$(".contact").on('click', function(){
     //jQuery function which triggers when developers link clicked
     $(".click-contact").css("display", "block");		//displays the previously hidden container class block
     lastElementTop = $('.click-contact').position().top ; //finds the position of the container class and assigns to variable
