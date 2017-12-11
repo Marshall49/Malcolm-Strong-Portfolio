@@ -261,7 +261,7 @@ hr {
 }
 
 hr.about {
-  border: solid 1.5px black;
+  border: solid 1.5px #009900;
 }
 
 /*//Button Feature*/
@@ -1122,13 +1122,13 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   .about-description {
     padding-top: 100px;
     font-family: 'Kalam', cursive;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 120%;
   }
 
   .about-bottom {
     font-family: 'Kalam', cursive;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 120%;
   }
 
