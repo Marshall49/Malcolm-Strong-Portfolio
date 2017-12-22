@@ -8,13 +8,44 @@ $(document).ready(function(){
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
         $('.navbar').css('background', 'url("Assets/Images/superhero.png")');
-        $('.navbar').css('1s');
+        $('.projects').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        $('.about').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        $('.contact').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        $('#logo').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        $('.Header').css({"-webkit-animation": "animated rubberBand 10s", "animation": "animated rubberBand 10s"});
+        $('.links').css({"border-radius": "none", "margin-top": "-5px", "margin-right": "-5px", "margin-bottom": "-1px", "box-shadow": "inset -80px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
+        // $('#logo').css({"border-radius": "none", "margin-top": "3px", "margin-left": "-5px", "margin-bottom": "-50px", "box-shadow": "inset 2px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
+        $('.name').css('display' , 'none');
       } else {
         $('.navbar').css('background' , 'none');
+        $('.projects').css('animation' , 'none');
+        $('.about').css('animation' , 'none');
+        $('.contact').css('animation' , 'none');
+        $('.links').css('box-shadow' , 'none');
+        // $('#logo').css('box-shadow' , 'none');
+        $('.name').css('display' , 'block');
       }
     });
   }
 });
+
+// $("header").append("<div class='glitch-window'></div>");
+// //fill div with clone of real header
+// $( "h1.glitched" ).clone().appendTo( ".glitch-window" );
+
+
+
+// $(window).scroll(function(){
+//     $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+//   //250 is fade pixels
+//   });
+
+// $(function () {
+//   $(window).scroll(function () {
+//     var currentScrollTop = $(window).scrollTop();
+//     $('.navbar').css('opacity', currentScrollTop/$('.navbar').height());
+//   });
+// });
 
 //Click Buttons
 
