@@ -1424,7 +1424,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
      } */
 
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
 
       .Header {
         font-size: 120px;
@@ -1451,7 +1451,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
       }
       .about-description, .about-bottom, .click-contact {
         font-size: 140%;
-      }
+      } */
       /* .img-size {
         width: 100px;
         height: 100px;
