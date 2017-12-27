@@ -1281,7 +1281,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   padding-right: 40px;
 }
 
-  .img-fluid {
+  .img-size{
     padding-left: 155px;
   }
 
@@ -1402,7 +1402,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
 
-@media only screen and (max-width: 700px) {
+/* @media only screen and (min-width: 700px) {
        .no-hyperlink {
         display: inline-block;
         font-size: 28px;
@@ -1410,13 +1410,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
       }
        a.name {
          display: none;
-        /* font-size: 28px;
-        margin-left: 5%;
-        top: 25px; */
       }
-        /* #logo {
-          display: none;
-        } */
          .animated {
           font-size: 60px;
           padding-bottom: -60px;
@@ -1427,4 +1421,50 @@ figure.effect-zone3:hover p.icon-links a:first-child {
         .herd-fluid {
           margin: -33px;
         }
-     }
+     } */
+
+
+@media only screen and (min-width: 1200px) {
+
+      .Header {
+        font-size: 120px;
+      }
+      .button {
+        margin-top: 75px;
+        padding: 0.6em calc(0.6em * 1.5);
+      }
+      hr.colored {
+        max-width: 200px;
+      }
+      .image {
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+      }
+      .keep-icon, .arrow {
+        font-size: 60px;
+
+      }
+      .links, .name, .section-heading, .keep-going, .image-list, .last-thing {
+        font-size: 60px;
+      }
+      .about-description, .about-bottom, .click-contact {
+        font-size: 140%;
+      }
+      /* .img-size {
+        width: 100px;
+        height: 100px;
+      }
+        figure.effect-zone1,.effect-zone2,.effect-zone3 {
+        width: 500px;
+        height: 300px;
+      }
+      .grid {
+        position: relative;
+        padding: 5em 0 8em;
+      } */
+
+
+
+}
