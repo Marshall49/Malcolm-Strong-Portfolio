@@ -47,29 +47,6 @@ body .homepage-hero-module{
   width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-       .no-hyperlink {
-        display: inline-block;
-        font-size: 28px;
-        margin-top: 8px;
-      }
-       a.name {
-        font-size: 28px;
-        margin-left: 5%;
-        top: 25px;
-      }
-        #logo {
-          display: none;
-        }
-         .animated {
-          font-size: 60px;
-          padding-bottom: -60px;
-        }
-        .herd-fluid {
-          margin: -33px;
-        }
-     }
-
 
 
 
@@ -619,11 +596,11 @@ hr.primary {
 }
 
 .about-title {
-  margin-top: 320px;
+  top: 40px;
   font-family: 'Kalam', cursive;
   font-size: 45px;
   font-weight: 800;
-  text-align: center;
+  /* text-align: center; */
   /*width: 100%;*/
 }
 
@@ -1309,7 +1286,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
   }
 
   .about-description {
-    padding-top: 70px;
+    padding-top: 100px;
     font-family: 'Kalam', cursive;
     font-weight: 800;
     font-size: 120%;
@@ -1424,3 +1401,30 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
+@media only screen and (max-width: 700px) {
+       .no-hyperlink {
+        display: inline-block;
+        font-size: 28px;
+        margin-top: 8px;
+      }
+       a.name {
+         display: none;
+        /* font-size: 28px;
+        margin-left: 5%;
+        top: 25px; */
+      }
+        /* #logo {
+          display: none;
+        } */
+         .animated {
+          font-size: 60px;
+          padding-bottom: -60px;
+        }
+        .mal-fluid {
+          padding-top: 60px;
+        }
+        .herd-fluid {
+          margin: -33px;
+        }
+     }

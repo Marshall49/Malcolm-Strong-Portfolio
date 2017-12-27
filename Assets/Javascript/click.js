@@ -11,11 +11,11 @@ $(document).ready(function(){
         $('.projects').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
         $('.about').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
         $('.contact').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
-        $('#logo').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        // $('#logo').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
         $('.Header').css({"-webkit-animation": "animated rubberBand 10s", "animation": "animated rubberBand 10s"});
         $('.links').css({"border-radius": "none", "margin-top": "-5px", "margin-right": "-5px", "margin-bottom": "-1px", "box-shadow": "inset -80px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
         // $('#logo').css({"border-radius": "none", "margin-top": "3px", "margin-left": "-5px", "margin-bottom": "-50px", "box-shadow": "inset 2px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
-        $('.name').css('display' , 'none');
+        // $('.name').css('display' , 'none');
       } else {
         $('.navbar').css('background' , 'none');
         $('.projects').css('animation' , 'none');
@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('.contact').css('animation' , 'none');
         $('.links').css('box-shadow' , 'none');
         // $('#logo').css('box-shadow' , 'none');
-        $('.name').css('display' , 'block');
+        // $('.name').css('display' , 'block');
       }
     });
   }
@@ -69,7 +69,7 @@ $(".about").on('click', function(){
 
 $(".contact").on('click', function(){
     $('html, body').animate({
-        scrollTop: $('.about-title').offset().top
+        scrollTop: $('.click-contact').offset().top
       }, 2000); //scrolls to the position found in last line
 });
 
