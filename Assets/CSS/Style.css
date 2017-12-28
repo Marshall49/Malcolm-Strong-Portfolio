@@ -1465,13 +1465,24 @@ figure.effect-zone3:hover p.icon-links a:first-child {
         padding: 5em 0 8em;
       } */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 992px) {
       .Header {
-        font-size: 5px;
+        font-size: 50px;
       }
-      .links, .name, .section-heading, .keep-going, .image-list, .last-thing {
-        font-size: 5px;
+      .links, .name {
+        font-size: 30px;
       }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+      .section-heading {
+        font-size: 30px;
+        margin-right: 200px;
+      }
+
+
 
 
 }
