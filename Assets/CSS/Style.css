@@ -247,7 +247,7 @@ body .homepage-hero-module{
   font-size: 40px;
   color: white;
   margin-left: 5%;
-  top: 23px;
+  top: 18px;
   font-family: 'Just Another Hand', cursive;
   text-shadow: 2px 2px black;
   font-weight: bold;
@@ -1472,6 +1472,9 @@ figure.effect-zone3:hover p.icon-links a:first-child {
       .links, .name {
         font-size: 30px;
       }
+      #logo {
+        display: none;
+      }
 
 
 }
@@ -1479,8 +1482,9 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 @media only screen and (max-width: 1200px) {
       .section-heading {
         font-size: 30px;
-        margin-right: 200px;
+        margin-right: 320px;
       }
+
 
 
 
