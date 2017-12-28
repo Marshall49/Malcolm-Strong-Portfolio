@@ -1424,7 +1424,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
      } */
 
 
- @media only screen and (min-width: 1905px) {
+ /* @media only screen and (max-width: 1905px) {
 
        .Header {
         font-size: 120px;
@@ -1451,7 +1451,7 @@ figure.effect-zone3:hover p.icon-links a:first-child {
       }
       .about-description, .about-bottom, .click-contact {
         font-size: 140%;
-      }
+      } */
        /* .img-size {
         width: 100px;
         height: 100px;
@@ -1465,6 +1465,13 @@ figure.effect-zone3:hover p.icon-links a:first-child {
         padding: 5em 0 8em;
       } */
 
+@media only screen and (min-width: 1024px) {
+      .Header {
+        font-size: 5px;
+      }
+      .links, .name, .section-heading, .keep-going, .image-list, .last-thing {
+        font-size: 5px;
+      }
 
 
 }
