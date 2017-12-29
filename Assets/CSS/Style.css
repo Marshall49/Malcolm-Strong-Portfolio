@@ -1484,6 +1484,10 @@ figure.effect-zone3:hover p.icon-links a:first-child {
         font-size: 30px;
         text-align: center;
       }
+      .mal-fluid, .herd-fluid {
+        width: 200px;
+        height: 200px;
+      }
 
 
 
