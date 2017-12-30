@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(document).scroll(function() {
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-        $('.navbar').css('background', 'url("Assets/Images/superherogif1.gif")');
+        $('.navbar').css('background', 'url("Assets/Images/superherogif2.gif")');
         $('.projects').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
         $('.about').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
         $('.contact').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});

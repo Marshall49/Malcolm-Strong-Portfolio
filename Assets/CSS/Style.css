@@ -1479,14 +1479,95 @@ figure.effect-zone3:hover p.icon-links a:first-child {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1824px) {
+
+      .img-size {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin: 5px 150px;
+      }
+      .grid figure  {
+        width: 390px;
+        height: 300px;
+        margin: 10px 9px 5px 10px;
+      }
+      .grid figure h2 span {
+        font-size: 25px;
+        font-weight: 800;
+      }
+      figure.effect-zone1 p.description {
+        bottom: 8em;
+        font-size: 80%;
+      }
+      figure.effect-zone1 figcaption {
+        height: 5em;
+      }
+      figure.effect-zone2 p.description {
+        bottom: 8em;
+        font-size: 80%;
+      }
+      figure.effect-zone2 figcaption {
+        height: 5em;
+      }
+      figure.effect-zone3 p.description {
+        bottom: 8em;
+        font-size: 80%;
+      }
+      figure.effect-zone3 figcaption {
+        height: 5em;
+      }
+
+
+
+      .Header {
+        font-size: 120px;
+        margin-top: 130px;
+      }
+      .button {
+        margin-top: 75px;
+      }
+      .links, .name {
+        font-size: 70px;
+      }
       .section-heading {
-        font-size: 30px;
+        font-size: 90px;
         text-align: center;
       }
-      .mal-fluid, .herd-fluid {
-        width: 200px;
-        height: 200px;
+      .keep-going {
+        margin-top: 250px;
+        font-size: 70px;
+      }
+      .keep-icon {
+        font-size: 60px;
+      }
+      .image-list {
+        font-size: 70px;
+        margin-top: 400px;
+      }
+      .last-thing {
+        font-size: 70px;
+        margin-top: 600px;
+      }
+      .arrow {
+        font-size: 40px;
+      }
+      .mal-fluid {
+        width: 500px;
+        height: 500px;
+        margin-left: -150px;
+      }
+      .herd-fluid {
+        width: 500px;
+        height: 500px;
+        /* margin-left: -150px; */
+      }
+      .about-description, .about-bottom {
+        font-size: 180%;
+        line-height: 100%;
+      }
+      .text-center {
+        margin-top: 50px;
       }
 
 
