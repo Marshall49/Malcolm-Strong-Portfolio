@@ -7,11 +7,11 @@ $(document).ready(function(){
     $(document).scroll(function() {
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-        $('.navbar').css('background', 'url("Assets/Images/supercollagegif.gif")');
+        $('.navbar').css('background', 'url("Assets/Images/superherogif2.gif")');
         $('.projects').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
         $('.about').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
         $('.contact').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
-        $('#logo').css({"-webkit-animation": "fadeIn 15s", "animation": "fadeIn 15s"});
+        $('#logo').css({"-webkit-animation": "fadeIn 5s", "animation": "fadeIn 5s"});
         // $('.Header').css({"-webkit-animation": "animated rubberBand 10s", "animation": "animated rubberBand 10s"});
         // $('.links').css({"border-radius": "none", "margin-top": "-5px", "margin-right": "-5px", "margin-bottom": "-1px", "box-shadow": "inset -80px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
         // $('#logo').css({"border-radius": "none", "margin-top": "3px", "margin-left": "-5px", "margin-bottom": "-50px", "box-shadow": "inset 2px 0px 100px 1px #ABABAB, 5px 5px 100px -95px #DDDDDD"});
